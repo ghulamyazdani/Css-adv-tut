@@ -1,0 +1,41 @@
+h1:hover{
+    color: red;
+
+}
+.subs{
+    color: blue;
+}
+.hello div:first-child{
+color: blue;
+}
+.hello div:last-child{
+    color: brown;
+}
+img[src*="maskdetection.PNG"]{
+    border: black solid 10px;
+    height: 100px;
+    width: 300px;
+}
+img[src="../images/resd.PNG"]{
+    border: red solid 10px;
+    height: 300px;
+    width: 300px;
+}
+#service-image{
+    background: url("tshirtdesignmlh.jpg");
+    height: 1000px;
+    width: 70%;
+    
+    background-size: ;
+    background-repeat: repeat;
+}
+/* p{
+    background: rgba(red, green, blue, alpha);
+} */
+.gradient{
+    height: 400px;
+    width: 40%;
+    /* background: linear-gradient(to right,red,blue); */
+    /* background: linear-gradient(255deg, rgb(red,green,blue)); */
+    background: radial-gradient(red,blue);
+}
