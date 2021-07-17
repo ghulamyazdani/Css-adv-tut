@@ -1,3 +1,11 @@
+body{
+    background: linear-gradient(to right, rgb(164, 195, 245),white);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: sans-serif;
+}
+
 h1:hover{
     color: red;
 
@@ -38,4 +46,8 @@ img[src="../images/resd.PNG"]{
     /* background: linear-gradient(to right,red,blue); */
     /* background: linear-gradient(255deg, rgb(red,green,blue)); */
     background: radial-gradient(red,blue);
+}
+/* Text-decoration used to add or remove underlines */
+.textdecor{
+    text-decoration: underline;
 }
