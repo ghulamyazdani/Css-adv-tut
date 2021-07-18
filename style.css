@@ -75,3 +75,48 @@ img[src="../images/resd.PNG"]{
     margin: 10px;
 
 }
+.grid-container{
+    background-color: rgb(250,250,250);
+    margin: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.grid-items{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 40px;
+}
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	background: rgb(89, 150, 255);
+    transition: all 500ms  ease;
+	/* transform: matrix(1, 0.45, 0.45, 1, 100, 50); */
+	/* -webkit-transition: background, padding 500ms ease;
+	-moz-transition: background, padding 500ms ease;
+	-o-transition: background, padding 500ms ease; */
+}
+
+.submit-button:hover {
+	background: rgb(147, 187, 255);
+	padding: 20px 30px;
+}
+#decorate{
+    animation-name: red-to-black;
+    animation-duration: 4s;
+}
+@keyframes red-to-black{
+    0% {background: red;}
+    100% {background:green ;}
+}
