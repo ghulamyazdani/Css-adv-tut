@@ -113,10 +113,17 @@ img[src="../images/resd.PNG"]{
 	padding: 20px 30px;
 }
 #decorate{
-    animation-name: red-to-black;
+    /* animation-name: red-to-black;
     animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; */
+    animation: red-to-black 4s  2s infinite alternate;
 }
 @keyframes red-to-black{
-    0% {background: red;}
-    100% {background:green ;}
+    0% {background: red;
+    transform: translate(0px,0px);}
+    100% {background:green ;
+        transform: translate(10px,10px);
+    }
 }
